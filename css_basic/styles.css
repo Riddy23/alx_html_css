@@ -1,1 +1,25 @@
+/* Apply Flexbox to the body to stack header, main, and footer vertically */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* ensure full height of viewport */
+}
 
+/* Apply Flexbox to main to align article and aside side-by-side */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto; /* allows main to grow and shrink as needed */
+}
+
+/* Article takes 2/3 of the width */
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+/* Aside takes 1/3 of the width */
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
