@@ -180,3 +180,68 @@ nav ul li a:hover {
   color: #6c757d;
   line-height: 1.6;
 }
+/* MEMBERSHIP SECTION */
+.membership {
+  background-color: #071629;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.membership h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.membership .plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.plan-card {
+  background-color: #ffffff;
+  color: #071629;
+  border-radius: 8px;
+  padding: 30px 20px;
+  max-width: 260px;
+  text-align: center;
+}
+
+.plan-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.plan-card p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.plan-card .price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #ff6565;
+}
+
+.plan-card button {
+  background-color: #ff6565;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.plan-card button:hover {
+  background-color: #e04e4e;
+}
