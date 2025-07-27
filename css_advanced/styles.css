@@ -134,3 +134,49 @@ nav ul li a:hover {
   font-size: 14px;
   opacity: 0.9;
 }
+/* VIDEOS SECTION */
+.videos {
+  background-color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.videos h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #071629;
+  margin-bottom: 60px;
+}
+
+.video-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.video-card {
+  max-width: 300px;
+  text-align: left;
+}
+
+.video-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.video-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #071629;
+  margin: 15px 0 10px;
+}
+
+.video-card p {
+  font-size: 14px;
+  color: #6c757d;
+  line-height: 1.6;
+}
