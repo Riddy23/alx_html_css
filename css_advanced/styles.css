@@ -1,1 +1,84 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* HEADER STYLING */
+header {
+  background-color: #ffffff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+header img {
+  height: 40px; 
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+
+nav ul li a:hover {
+  color: #ff6565; 
+}
+
+/* BANNER / HERO SECTION */
+.banner {
+  background-image: url('images/banner-background.jpg'); 
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.banner h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.banner .btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 30px;
+  background-color: #ff6565;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+}
+
+.banner .btn:hover {
+  background-color: #e04e4e;
+}
